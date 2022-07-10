@@ -12,6 +12,7 @@ int main()
     for (const string& word : msg)
     {
         ++i;
+        i=i+3;
         cout << word << " ";
     }
     cout << endl;
